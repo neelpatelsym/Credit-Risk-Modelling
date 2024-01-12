@@ -60,4 +60,46 @@ Following were major insights derived from EDA:
 <br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/706bc18c-4a42-4a61-83e2-87367cc58545)
 5. There is a possibility of people from one age group is more likely to default.
 <br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2da4c69f-e773-483b-b49b-0eeb74786590)
+
+### Feature Generation and Feature Selection
+With significant information available from EDA, additional features were generated.
+Following is the few examples of the feature generated:
+1. EDUCATION_MARRIAGE_BUCKET
+2. EDUCATION_SEX_BUCKET
+3. MARRIAGE_SEX_BUCKET
+4. EDUCATION_MARRIAGE_SEX_BUCKET
+5. AGE_BUCKET
+6. CREDIT_LIMIT_BUCKET
+7. PAY_AMT_BUCKET
+and many more...
+Also this feature are encoded to impute suitable numerical information for categories.
+
+### Model training
+The credit card default problem is a classic case of unbalanced machine learning problem.
+We have 20% information of customers who has defaulted. This introduce a biasness in result of our model.
+Thus, to balance the problem additional datapoints of defaulters are generated through Synthetic Minority Oversampling Technique (SMOTE).
+After balancing the data is divided into train and test set.
+The train data was trained on logistic regression, support vector classifier,Xtreme Gradient Boosting and Random Forest Classifier.
+
+### Model Evaluation
+As this is a binary classification problem, the F1 score become base for model evaluation.
+Please refer to confusion matrix of all models
+1. Logistic Regression:
+   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/92ec34d4-20e6-4517-b3c6-2593b06eabb1)
+   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2a7e724a-3cb2-4f8a-8da8-b6bdbeaa280b)
+2. Support Vector Classifier:
+   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/e0efd62c-d629-4562-ab8b-88f55891457e)
+   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/1e66633a-c2a6-4959-bfb9-af21960da880)
+3. Random Forest Classifier:
+  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/d162ab65-1314-4716-9a55-81ec89fde609)
+  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2d498616-32a9-4cb6-9772-cab3ce49b6ea)
+4. Xtreme Gradient Boosting Classifier:
+  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/744e9ed0-bf22-4f2f-9b26-7911af189eca)
+  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/3799d49d-4db1-4c35-91ad-f9480d4bb5c8)
+
+### Model Selection
+Based on comparing F1 score and Confusion Matrix,the Random Forest Classifier model is selected for predicting default state of crediter in next month.
+F1 score: 0.89
+Accuracy : 89%
+
  
