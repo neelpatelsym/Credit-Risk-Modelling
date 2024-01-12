@@ -50,15 +50,15 @@ Also the column names are renamed in order to convey meaningful information.
 ### Exploratory Data Analysis (EDA)
 Following were major insights derived from EDA:
 1. Men are more likely to default then women.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2919531d-fff7-4b48-8602-14d50a7c1d44)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2919531d-fff7-4b48-8602-14d50a7c1d44)
 2. People who are single or are having strong educational background are less prone to default.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/0293c040-c48b-4f30-bbb8-bad9d02c1700)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/0293c040-c48b-4f30-bbb8-bad9d02c1700)
 3. Default probability changes with combination of defaulter's education, marriage and sex state.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/cf72ce1e-f439-48c6-82cd-3cd9e9e0d37f)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/cf72ce1e-f439-48c6-82cd-3cd9e9e0d37f)
 4. Outlier analysis revealed that the data points infered as outliers are the crediters belonging to specific group.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/b14adec0-4aad-4c7d-9c1c-e17270a77c19)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/b14adec0-4aad-4c7d-9c1c-e17270a77c19)
 5. People with high bill amount,less payment amount and less credit balance are more prone to default.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/706bc18c-4a42-4a61-83e2-87367cc58545)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/706bc18c-4a42-4a61-83e2-87367cc58545)
 6. There is a possibility of people from one age group is more likely to default.
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2da4c69f-e773-483b-b49b-0eeb74786590)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2da4c69f-e773-483b-b49b-0eeb74786590)
  
