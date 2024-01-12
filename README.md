@@ -86,16 +86,16 @@ As this is a binary classification problem, the F1 score become base for model e
 Please refer to confusion matrix of all models
 1. Logistic Regression:
 <br> ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/92ec34d4-20e6-4517-b3c6-2593b06eabb1)
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2a7e724a-3cb2-4f8a-8da8-b6bdbeaa280b)
+<br> ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2a7e724a-3cb2-4f8a-8da8-b6bdbeaa280b)
 2. Support Vector Classifier:
-   <br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/e0efd62c-d629-4562-ab8b-88f55891457e)
-   ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/1e66633a-c2a6-4959-bfb9-af21960da880)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/e0efd62c-d629-4562-ab8b-88f55891457e)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/1e66633a-c2a6-4959-bfb9-af21960da880)
 3. Random Forest Classifier:
-  <br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/d162ab65-1314-4716-9a55-81ec89fde609)
-  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2d498616-32a9-4cb6-9772-cab3ce49b6ea)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/d162ab65-1314-4716-9a55-81ec89fde609)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/2d498616-32a9-4cb6-9772-cab3ce49b6ea)
 4. Xtreme Gradient Boosting Classifier:
-  <br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/744e9ed0-bf22-4f2f-9b26-7911af189eca)
-  ![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/3799d49d-4db1-4c35-91ad-f9480d4bb5c8)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/744e9ed0-bf22-4f2f-9b26-7911af189eca)
+<br>![image](https://github.com/neelpdesai/Credit-Risk-Modelling/assets/137664550/3799d49d-4db1-4c35-91ad-f9480d4bb5c8)
 
 ### Model Selection
 Based on comparing F1 score and Confusion Matrix,the Random Forest Classifier model is selected for predicting default state of crediter in next month.
