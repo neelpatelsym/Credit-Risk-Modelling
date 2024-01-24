@@ -99,11 +99,11 @@ Please refer to confusion matrix of all models
 
 ### Model Selection
 Based on comparing F1 score and Confusion Matrix,the Random Forest Classifier model is selected for predicting default state of crediter in next month.
-The Random Forest Model assessment metrics is as follows:
-F1 score: 0.89
-Accuracy : 89%
-The F1 score and accuracy achieved is the highest in Kaggle Competition!
-The feature importance graph shows relative contribution of each feature in determining default of paymnent accurately.
+<br>The Random Forest Model assessment metrics is as follows:
+<br>F1 score: 0.89
+<br>Accuracy : 89%
+<br>The F1 score and accuracy achieved is the highest in Kaggle Competition!
+<br>The feature importance graph shows relative contribution of each feature in determining default of paymnent accurately.
 ![image](https://github.com/neelpatelsym/Credit-Risk-Modelling/assets/137664550/6ef2ccaa-5517-4ad8-8312-678118e7412e)
 
  
