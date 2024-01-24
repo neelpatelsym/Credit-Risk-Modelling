@@ -104,6 +104,6 @@ Based on comparing F1 score and Confusion Matrix,the Random Forest Classifier mo
 <br>Accuracy : 89%
 <br>The F1 score and accuracy achieved is the highest in Kaggle Competition!
 <br>The feature importance graph shows relative contribution of each feature in determining default of paymnent accurately.
-![image](https://github.com/neelpatelsym/Credit-Risk-Modelling/assets/137664550/6ef2ccaa-5517-4ad8-8312-678118e7412e)
+<br> ![image](https://github.com/neelpatelsym/Credit-Risk-Modelling/assets/137664550/6ef2ccaa-5517-4ad8-8312-678118e7412e)
 
  
