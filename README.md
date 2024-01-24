@@ -1,5 +1,5 @@
 # Credit-Risk-Modelling
-*Business Problem:* The project focuses on utilizing a machine learning approach to address a crucial challenge faced by financial institutions: predicting instances of customers defaulting on payments in Taiwan. The objective is to employ advanced algorithms to tackle this significant problem in the financial sector.
+**Business Problem:** A Bank in Taiwan is facing critical challenge of customers defaulting their credit card payments. Loan defaults pose significant challenges for both borrowers and lenders(the bank). When borrowers fail to meet their loan obligations, often due to financial distress, job loss, or unforeseen life events, it not only adversely impacts their credit scores but also triggers severe consequences for lenders. The repercussions include disrupted cash flow, diminished profitability, and an elevated overall credit risk for the bank.Thus, banks need to proactively mitigate losses by identifying at-risk customers. Taking timely and targeted measures, such as risk mitigation strategies and financial counseling, safeguards both the institution and its customers.
 
 ## Variables
 There are 25 variables:
@@ -99,7 +99,11 @@ Please refer to confusion matrix of all models
 
 ### Model Selection
 Based on comparing F1 score and Confusion Matrix,the Random Forest Classifier model is selected for predicting default state of crediter in next month.
+The Random Forest Model assessment metrics is as follows:
 F1 score: 0.89
 Accuracy : 89%
+The F1 score and accuracy achieved is the highest in Kaggle Competition!
+The feature importance graph shows relative contribution of each feature in determining default of paymnent accurately.
+![image](https://github.com/neelpatelsym/Credit-Risk-Modelling/assets/137664550/6ef2ccaa-5517-4ad8-8312-678118e7412e)
 
  
