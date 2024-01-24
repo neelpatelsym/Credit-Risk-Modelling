@@ -1,5 +1,5 @@
 # Credit-Risk-Modelling
-The project focuses on utilizing a machine learning approach to address a crucial challenge faced by financial institutions: predicting instances of customers defaulting on payments in Taiwan. The objective is to employ advanced algorithms to tackle this significant problem in the financial sector.
+*Business Problem:* The project focuses on utilizing a machine learning approach to address a crucial challenge faced by financial institutions: predicting instances of customers defaulting on payments in Taiwan. The objective is to employ advanced algorithms to tackle this significant problem in the financial sector.
 
 ## Variables
 There are 25 variables:
@@ -45,7 +45,7 @@ Following approach was used to solve the problem:
 ### Data Cleaning and exploration
 The data contained many unlabeled values in education, marriage and pay columns. Those unlabeled values are merged with the nearest label based on assumption of data entry error.
 Moreover the data is checked for dupilates and null values. There were no duplicates or null values in the data.
-Also the column names are renamed in order to convey meaningful information.
+The column names are renamed in order to convey meaningful information.
 
 ### Exploratory Data Analysis (EDA)
 Following were major insights derived from EDA:
