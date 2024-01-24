@@ -43,7 +43,7 @@ Following approach was used to solve the problem:
 7. Model Selection
 
 ### Data Cleaning and exploration
-The data contained many unlabeled values in education, marriage and pay columns. Those unlabeled values are merged them with the nearest label based on assumption of data entry error.
+The data contained many unlabeled values in education, marriage and pay columns. Those unlabeled values are merged with the nearest label based on assumption of data entry error.
 Moreover the data is checked for dupilates and null values. There were no duplicates or null values in the data.
 Also the column names are renamed in order to convey meaningful information.
 
