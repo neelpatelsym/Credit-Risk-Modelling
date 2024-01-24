@@ -33,7 +33,7 @@ ID: ID of each client
 ## Objective
 Our focus would be to generate a machine learning model that predicts whether the customer will default payment next month or not?
 Through correctly predecting the default state of customers, bank can take appropriate steps and can reduce the loss of millions of dollars incurred by default behaviour.
-Upon reviewing data, it is decided to solve the issue through following approach:
+Following approach was used to solve the problem:
 1. Data Cleaning and exploration
 2. Exploratory Data Analysis (EDA)
 3. Feature Generation
